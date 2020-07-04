@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvVindoDeLagertha"
+                android:layout_width="514dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:text="@string/vindo_de"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/textView27"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <Button
+                android:id="@+id/btBjornLagertha"
+                android:layout_width="207dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:autoText="true"
+                android:background="@drawable/bjorn"
+                android:clickable="true"
+                android:text="@string/nome_bjorn"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintStart_toEndOf="@+id/btRagnarLagertha"
+                app:layout_constraintTop_toBottomOf="@+id/tvVindoDeLagertha" />
+
+            <Button
+                android:id="@+id/btRagnarLagertha"
+                android:layout_width="207dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:autoText="true"
+                android:background="@drawable/ragnar"
+                android:clickable="true"
+                android:text="@string/nome_ragnar"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvVindoDeLagertha" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="404dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/nome_Lagertha"
+                android:textColor="@android:color/background_light"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView11"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="165dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:text="@string/melhor_amigo"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="265dp"
+                android:layout_height="235dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/lagertha" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="401dp"
+                android:layout_height="151dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="17dp"
+                android:text="@string/floki_description"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView26" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

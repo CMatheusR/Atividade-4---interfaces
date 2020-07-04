@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vikingos</string>
+    <string name="melhor_amigo">Mejores amigos</string>
+    <string name="vindo_de">Llegaste a este personaje a través del personaje   </string>
+
+    <string name="nome_floki">Floki</string>
+    <string name="floki_description">Floki Vilgerðarson es un constructor de botes y tramposo incorregible, que también es el excéntrico y excéntrico amigo de Ragnar Lothbrok. Comprometido a ayudar a Ragnar a navegar hacia el oeste, diseña y construye en secreto una nueva generación de barcos vikingos para su viaje hacia el oeste a través del océano..</string>
+
+    <string name="nome_athelstan">Athelstan</string>
+    <string name="athelstan_description">Etelstano fue el rey de los anglosajones desde 924 hasta 927, cuando conquistó todo el territorio inglés, comenzando a reinar como rey de los ingleses hasta su muerte. Era hijo del rey Eduardo el Viejo y su primera esposa, Ecgvina.</string>
+
+    <string name="nome_ragnar">Ragnar Lothbrok</string>
+    <string name="ragnar_description">Ragnar Sigurdsson, conocido popularmente como Ragnar Lothbrok, (Shaggy Breeches) como el principal protagonista del vikingo en su muerte en la segunda parte de la temporada. Ragnar era un guerrero inquieto y ex rey de Kattegat.</string>
+
+    <string name="nome_Lagertha">Lagertha</string>
+    <string name="lagertah_description">Lagertha fue la primera y ex esposa de Ragnar Lothbrok y ex reina de Kattegat. Lagertha era un conde y una doncella feroz del escudo. Ella luchó en la pared del escudo al lado de los hombres.</string>
+
+    <string name="nome_rollo">Rollo</string>
+    <string name="rollo_description">Rollo de Normandía, también conocido como Rollo Sigurdsson y Rolf, es el hermano mayor de Ragnar Lothbrok y el duque de Normandía. Es el esposo de la princesa Frank Gisla y padre de William, Marcellus y Celsa..</string>
+
+    <string name="nome_bjorn">Bjorn Ironside</string>
+    <string name="bjorn_description">Björn Ragnarsson o Bjorn Ironside es el rey de Kattegat. Él es el hijo de Ragnar y Lagertha y el mayor de los muchos hijos de Ragnar. Aunque más tarde se revela que su tío Rollo puede ser su padre biológico, Björn cree que es el hijo de Ragnar.</string>
+
+</resources>

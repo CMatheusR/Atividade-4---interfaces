@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.matheus.atividade4_tentativa9">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_svg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_svg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_rollo"></activity>
+        <activity android:name=".activity_ragar" />
+        <activity android:name=".activity_lagertha" />
+        <activity android:name=".activity_floki" />
+        <activity android:name=".activity_bjorn" />
+        <activity android:name=".activity_athelstan" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

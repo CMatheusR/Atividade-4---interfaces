@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vikings</string>
+    <string name="melhor_amigo">Best friends</string>
+    <string name="vindo_de">You arrived at this character through the character</string>
+
+    <string name="nome_floki">Floki</string>
+    <string name="floki_description">Floki Vilgerðarson is a boat builder and incorrigible cheater, who is also the eccentric and eccentric friend of Ragnar Lothbrok. Committed to helping Ragnar navigate westward, he secretly designs and builds a new generation of Viking boats for his westward journey across the ocean.</string>
+
+    <string name="nome_athelstan">Athelstan</string>
+    <string name="athelstan_description">Etelstano was the king of the Anglo-Saxons from 924 to 927, when he conquered the whole of English territory, starting to reign as king of the English until his death. He was the son of King Edward the Elder and his first wife Ecgvina</string>
+
+    <string name="nome_ragnar">Ragnar Lothbrok</string>
+    <string name="ragnar_description">Ragnar Sigurdsson, popularly known as Ragnar Lothbrok, (Shaggy Breeches) was the main protagonist of the Vikings until his death in the second part of the fourth season. Ragnar was a restless warrior and former king of Kattegat.</string>
+
+    <string name="nome_Lagertha">Lagertha</string>
+    <string name="lagertah_description">Lagertha was the first and ex-wife of Ragnar Lothbrok and the former queen of Kattegat. Lagertha was an earl and a fierce shield maiden. She fought on the shield wall beside the men.</string>
+
+    <string name="nome_rollo">Rollo</string>
+    <string name="rollo_description">Rollo of Normandy, also known as Rollo Sigurdsson and Rolf, is the older brother of Ragnar Lothbrok and the Duke of Normandy. He is the husband of Princess Frank Gisla and father of William, Marcellus and Celsa.</string>
+
+    <string name="nome_bjorn">Bjorn Ironside</string>
+    <string name="bjorn_description">Björn Ragnarsson or Bjorn Ironside is the king of Kattegat. He is the son of Ragnar and Lagertha and the eldest of Ragnar\'s many children. Although it is later revealed that his uncle Rollo may be his biological father, Björn believes he is Ragnar\'s son.</string>
+
+</resources>

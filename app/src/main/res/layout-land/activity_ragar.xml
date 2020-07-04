@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvVindoDeRagnar"
+                android:layout_width="501dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/vindo_de"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/textView30"
+                app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+            <Button
+                android:id="@+id/btFlokiRagnar"
+                android:layout_width="207dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="21dp"
+                android:autoText="true"
+                android:background="@drawable/floki"
+                android:clickable="true"
+                android:text="@string/nome_floki"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintStart_toEndOf="@+id/btLagerthaRagnar"
+                app:layout_constraintTop_toBottomOf="@+id/tvVindoDeRagnar" />
+
+            <Button
+                android:id="@+id/btBjornRagnar"
+                android:layout_width="207dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="21dp"
+                android:autoText="true"
+                android:background="@drawable/bjorn"
+                android:clickable="true"
+                android:text="BJORN"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintStart_toEndOf="@+id/btFlokiRagnar"
+                app:layout_constraintTop_toBottomOf="@+id/tvVindoDeRagnar" />
+
+            <Button
+                android:id="@+id/btLagerthaRagnar"
+                android:layout_width="207dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:autoText="true"
+                android:background="@drawable/lagertha"
+                android:clickable="true"
+                android:text="@string/nome_Lagertha"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="478dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/nome_ragnar"
+                android:textColor="@android:color/background_light"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="176dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/melhor_amigo"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="218dp"
+                android:layout_height="202dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ragnar" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="473dp"
+                android:layout_height="143dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/ragnar_description"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
